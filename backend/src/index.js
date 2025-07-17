@@ -29,4 +29,4 @@ app.post('/build-agent', (req, res) => {
   });
 });
 
-app.listen(PORT, () => console.log(\API running on \\));
+app.listen(PORT, () => console.log('API running on ' + PORT));
